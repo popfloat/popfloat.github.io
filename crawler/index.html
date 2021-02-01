@@ -1,0 +1,24 @@
+
+<html>
+    <head>
+        <title>Some page</title>
+        <meta name="robots" content="noindex">
+    </head>
+    <body>
+        <h1>Some h1</h1>
+    
+        <p>Some text</p>
+    
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Wikipedia-logo-v2-fr.svg/157px-Wikipedia-logo-v2-fr.svg.png"/>
+    
+        <script>
+    
+            window.addEventListener('load', function() {
+                setTimeout(() => {
+                    document.querySelector('p').innerText = 'user agent:' + navigator.userAgent;
+                }, 150);
+            });
+    
+        </script>
+    </body>
+    </html>
